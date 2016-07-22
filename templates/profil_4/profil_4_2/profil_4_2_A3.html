@@ -1,0 +1,185 @@
+﻿<ion-view view-title="Gan Assurances : la pr&eacute;voyance individuelle" ng-app="ionicApp">
+  <div class="tabs-striped tabs-color-light revenus">
+    <div class="tabs revenus2"  style="background-color:#E75113">
+      <h5 class="light bottom-bar-title">Choix du<br>
+        revenu annuel :</h5>
+      <a class="tab-item" href="#/app/profil_4_2_A1"><i class="icon">40 000&euro;</i></a> <a class="tab-item" href="#/app/profil_4_2_A2"> <i class="icon">60 000&euro;</i></a> <a class="tab-item active" href="#/app/profil_4_2_A3"> <i class="icon">80 000&euro;</i></a></div>
+  </div>
+  <ion-content>
+    <div class="bar bar-subheader bar-stable static text-center"><strong class="title">Indemnit&eacute;s journali&egrave;res
+      <button class="button-small button-calm en-savoir-plus" ng-click="openModal()">En savoir plus<span class="icon-right ion-plus-circled en-savoir-plus-icon"></span></button>
+      </strong></div>
+    <script id="my-modal.html" type="text/ng-template">
+	  <ion-modal-view>
+		<ion-header-bar style="padding:10px;">
+			<h3 class="calm">Informations</h3>
+		</ion-header-bar>
+		<ion-content class="padding dark">
+			<div style="padding:10px; font-size:1.2em">
+			<p>Des prestations faibles au regard de vos besoins.</p>
+			<p><strong>&bull; un d&eacute;lai de CARENCE TR&Egrave;S LONG</strong> : <span style="font-size:1.3em; font-weight:bold;">90 JOURS</span></p>
+			<p><strong>&bull; des Indemnit&eacute;s servies : </strong><span style="font-size:1.3em; font-weight:bold;">1 095 jours maximum</span></p>
+			<p>&bull; un montant FORFAITAIRE en fonction de la classe de cotisations que vous avez librement choisie :<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classe A : 16,22 €<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classe B : 32,44 €<br/>
+				&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Classe C : 48,66 €<br/>
+			</p>
+			<button class="button button-positive button-raised icon-left ion-checkmark-circled" style="color:white; float:left" ng-click="modal.hide()"> Retour</button>
+			</div>
+		</ion-content>
+	</ion-modal-view>
+	</script>
+    <div class="profil1"> <img class="bg-image_a_profil1" src="img/ui_icons_a.png">
+      <div class="row responsive-sm"> 
+        <!--LEFT BAR-->
+        <div class="col col-top menu-left">
+          <div class = "row responsive-sm" align="center">
+            <div class="col col-top light"><a style="text-decoration: none" href="#/app/profil_4_2"> <img src="img/profil_4_2.png" class="left-menu-profil" alt="">
+              <h6>Retour profil<br>
+                Sages Femmes</h6>
+              </a> </div>
+          </div>
+          <div class = "row responsive-sm">
+            <div class="col col-top"> </div>
+          </div>
+          <div class = "row responsive-sm">
+            <div class="col col-top" style="margin-top:-20px;"> <a href="#/app/profil_4_2_A3" class="button button-positive left-bar-button pulsate" style="background-color:#E75113; text-transform:none;"> <br>
+              <br>
+              Arr&ecirc;t de travail</a> </div>
+          </div>
+          <div class = "row responsive-sm">
+            <div class="col col-top"> <a href="#/app/profil_4_2_B3" class="button button-positive left-bar-button pulsate" style="background-color:#001E48;text-transform:none"> <br>
+              <br>
+              Invalidit&eacute;</a> </div>
+          </div>
+          <div class = "row responsive-sm">
+            <div class="col col-top"> <a href="#/app/profil_4_2_C3" class="button button-positive left-bar-button pulsate" style="background-color:#A9398A;text-transform:none"> <br>
+              <br>
+              D&eacute;c&egrave;s</a> </div>
+          </div>
+          <div class = "row responsive-sm">
+            <div class="col col-top"> <a href="#/app/profil_4_2_D3" class="button button-stable left-bar-button pulsate" style="text-transform:none;"> <br>
+              <br>
+              R&eacute;sum&eacute;</a> </div>
+          </div>
+        </div>
+        <!-- END LEFT BAR--> 
+        <!-- CONTENT CONTAINER -->
+        <div class="col col-top"> 
+          <!--CONTENT (Center) ROW 1 (Titre + Regime)-->
+          <div class = "row responsive-sm row-top">
+            <div class="col col-top col-75" align="left" style="margin-left:-5px;">
+              <h3 class="light">R&eacute;sum&eacute; de la perte de revenus</h3>
+              <h4 class="light">Indemnit&eacute;s journali&egrave;res &agrave; couvrir</h4>
+              <h4 class="light">Base annuelle 80 000€ <span style="font-size:0.8em">/ mensuelle 6 667€ / journali&egrave;re 222 € / Classe de cotisations A</span ></h4>
+            </div>
+            <div class="col col-top light col-25" align="right">
+              <div class = "row responsive-sm">
+                <div class="col col-top light" align="right"><span style="padding:0px; font-size:1.6em"><strong>Votre r&eacute;gime</strong></span><br>
+                  <img src="img/logo_carcdsf.png" style="height:75px;" alt=""/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <!--CONTENT (Center) ROW 1 (Titre + Regime)--> 
+          <!-- CONTENT (Center) ROW 2-->
+          <div class = "row responsive-sm">
+            <div class="col col-10  col-top"> </div>
+            <div class="col col-80  col-top">
+              <div class = "row responsive-sm light" style="text-align:center; height:70px; margin-top:-40px;">
+                <div class="col col-25  col-top">
+                  <div class = "row responsive-sm">
+                    <div class="col col-top">
+                      <h5>Activit&eacute;</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class = "row responsive-sm">
+                    <div class="col">
+                      <h5>Arr&ecirc;t de travail (IJ)</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class = "row responsive-sm light charts" id="charts" style="margin-top:-20px;">
+                <div class="col col-25 col-top">
+                  <div class = "row responsive-sm">
+                    <div class="col col-top">
+                      <button class="button-full bar-positive border1" style="height:200px;">222&euro;</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class = "row responsive-sm">
+                    <div class="col col-top">
+                      <button class="button-full bar-assertive border2 animated flipInX" style="height:200px; padding:5px"><span style="font-size:0.7em">Pas de couverture</span></button>
+                    </div>
+                    <div class="col col-top">
+                      <button class="button-full bar-assertive border2 animated flipInX" style="height:170px;">206&euro;</button>
+                      <button class="button-full bar-calm border3" style="height:30px;">16&euro;</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- END CONTENT (Center) Row 2-->
+              <div class = "row responsive-sm light" style="text-align:center; height:55px; margin-top:-20px">
+                <div class="col col-25 col-top">
+                  <div class = "row responsive-sm">
+                    <div class="col col-top">
+                      <h5>Aujourd'hui</h5>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class = "row responsive-sm">
+                    <div class="col">
+                      <h5>3 mois</h5>
+                    </div>
+                    <div class="col">
+                      <h5>3 ans</h5>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-10  col-top"> </div>
+          </div>
+          <!-- CONTENT (Center) Row 3-->
+          <div class = "row responsive-sm">
+            <div class="col col-top" align="center" style="height:1.5em; margin-top:-20px;"></div>
+          </div>
+          <!-- END CONTENT (Center) Row 3--> 
+          <!-- CONTENT (Center) Row 4-->
+          <div class = "row responsive-sm light">
+            <div class="col light col-10" style="padding-top:20px; padding-left:10px" align="left"> </div>
+            <div class="col col-60" style="padding-top:20px;" align="left">
+              <div class = "row responsive-sm" style="margin-left:-15px">
+                <div class="col-col-10" align="left"><img src="img/ui_icons_warning.svg" height="32px" style="vertical-align:middle;"></div>
+                <div class="col col-90" style="padding-left:20px;" align="left">Aucune prise en charge de vos frais professionnels par votre r&eacute;gime obligatoire.</div>
+              </div>
+            </div>
+            <div class="col col-top col-40 legende">
+              <div class = "row responsive-sm">
+                <div class="col">
+                  <div class = "row responsive-sm row-center">
+                    <div class="col col-10"><span class="legende2 bar-positive"></span> </div>
+                    <div class="col col-90">&nbsp;&nbsp;Vos revenus </div>
+                  </div>
+                  <div class = "row responsive-sm row-center">
+                    <div class="col col-10"><span class="legende2 bar-calm"></span> </div>
+                    <div class="col col-90">&nbsp;&nbsp;Votre R&eacute;gime Obligatoire </div>
+                  </div>
+                  <div class = "row responsive-sm row-center">
+                    <div class="col col-10"><span class="legende2 bar-assertive"></span> </div>
+                    <div class="col col-90">&nbsp;&nbsp;Votre perte de revenus </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END CONTENT (Center) Row 4--> 
+        </div>
+      </div>
+    </div>
+  </ion-content>
+</ion-view>
